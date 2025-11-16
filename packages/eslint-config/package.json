@@ -1,0 +1,17 @@
+{
+  "name": "@ourstory/eslint-config",
+  "version": "0.1.0",
+  "description": "Shared ESLint configuration",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "next.js",
+    "react.js"
+  ],
+  "dependencies": {
+    "eslint": "^8.54.0",
+    "eslint-config-next": "^14.0.3",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-react": "^7.33.2"
+  }
+}
