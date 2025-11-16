@@ -113,17 +113,24 @@ Each historical domain has its own package:
 
 ```bash
 # Install dependencies
-npm install
+bun install
 
 # Run all apps in development
-npm run dev
+bun run dev
 
 # Build all packages
-npm run build
+bun run build
 
 # Run linting
-npm run lint
+bun run lint
 ```
+
+## Deployment
+
+The project is configured for deployment on Vercel with Bun:
+- `vercel.json` configures build and deployment settings
+- Turborepo build caching is utilized
+- Timeline app is the main deployment target
 
 ## Future Enhancements
 

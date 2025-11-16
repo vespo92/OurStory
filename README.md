@@ -38,16 +38,16 @@ This is a **Turborepo** monorepo with the following structure:
 
 ```bash
 # Install dependencies
-npm install
+bun install
 
 # Run development server
-npm run dev
+bun run dev
 
 # Build all packages
-npm run build
+bun run build
 
 # Run linting
-npm run lint
+bun run lint
 ```
 
 The timeline app will be available at http://localhost:3000
