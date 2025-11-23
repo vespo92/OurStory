@@ -7,6 +7,7 @@ const nextConfig = {
     '@ourstory/ancient-civilizations',
     '@ourstory/alternative-history',
     '@ourstory/declassified-docs',
+    '@ourstory/story-agents',
     '@ourstory/ui',
   ],
 };
