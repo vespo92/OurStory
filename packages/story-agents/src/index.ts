@@ -17,6 +17,7 @@ export { ufoDisclosureAgent } from './agents/ufo-disclosure';
 export { politicalAssassinationsAgent } from './agents/political-assassinations';
 export { falseFlagOperationsAgent } from './agents/false-flag-operations';
 export { medicalCoverupsAgent } from './agents/medical-coverups';
+export { philadelphiaExperimentAgent } from './agents/philadelphia-experiment';
 
 // Import all agents for registry
 import { ussLibertyMossadAgent } from './agents/uss-liberty-mossad';
@@ -29,6 +30,7 @@ import { ufoDisclosureAgent } from './agents/ufo-disclosure';
 import { politicalAssassinationsAgent } from './agents/political-assassinations';
 import { falseFlagOperationsAgent } from './agents/false-flag-operations';
 import { medicalCoverupsAgent } from './agents/medical-coverups';
+import { philadelphiaExperimentAgent } from './agents/philadelphia-experiment';
 
 import { StoryAgent, AgentRegistry } from './types';
 
@@ -46,6 +48,7 @@ export const storyAgents: StoryAgent[] = [
   politicalAssassinationsAgent,
   falseFlagOperationsAgent,
   medicalCoverupsAgent,
+  philadelphiaExperimentAgent,
 ];
 
 /**

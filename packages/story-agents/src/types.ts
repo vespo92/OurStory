@@ -19,6 +19,7 @@ export enum AgentSpecialization {
   FALSE_FLAG_OPERATIONS = 'false_flag_operations',
   MEDICAL_COVERUPS = 'medical_coverups',
   MILITARY_INCIDENTS = 'military_incidents',
+  SECRET_EXPERIMENTS = 'secret_experiments',
 }
 
 /**

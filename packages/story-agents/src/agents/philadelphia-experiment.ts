@@ -1,0 +1,383 @@
+/**
+ * Agent RAINBOW - Philadelphia Experiment & Time Travel Specialist
+ * Based on the testimony of Al Bielek regarding the USS Eldridge and Montauk Project
+ * Reference: Time travel claims, Llama time traveler connection
+ */
+
+import { SourceType, SourceReliability } from '@ourstory/timeline-engine';
+import {
+  StoryAgent,
+  AgentSpecialization,
+  ResearchMethodology,
+  InvestigationStatus,
+} from '../types';
+
+export const philadelphiaExperimentAgent: StoryAgent = {
+  id: 'agent-rainbow-011',
+  name: 'Philadelphia Experiment & Time Travel Research Agent',
+  codename: 'RAINBOW',
+  description:
+    'Specialized agent investigating the Philadelphia Experiment (Project Rainbow), the Montauk Project, and alleged government time travel programs. Analyzes testimony from Al Bielek and other claimed participants, examining connections between electromagnetic field manipulation, temporal displacement, and secret military experiments. References time traveler accounts including the Llama time traveler phenomenon.',
+  specialization: AgentSpecialization.SECRET_EXPERIMENTS,
+  methodologies: [
+    ResearchMethodology.WITNESS_TESTIMONY,
+    ResearchMethodology.TIMELINE_RECONSTRUCTION,
+    ResearchMethodology.PATTERN_RECOGNITION,
+    ResearchMethodology.DOCUMENT_ANALYSIS,
+    ResearchMethodology.SOURCE_TRIANGULATION,
+  ],
+  primarySources: [SourceType.ALTERNATIVE, SourceType.ACADEMIC, SourceType.DECLASSIFIED],
+  preferredReliability: [
+    SourceReliability.CONTESTED,
+    SourceReliability.UNVERIFIED,
+    SourceReliability.SECONDARY,
+    SourceReliability.PRIMARY,
+  ],
+  expertise: [
+    'Philadelphia Experiment (Project Rainbow)',
+    'USS Eldridge incident',
+    'Montauk Project',
+    'Al Bielek testimony',
+    'Nikola Tesla military involvement',
+    'Electromagnetic field manipulation',
+    'Temporal displacement theory',
+    'Camp Hero operations',
+    'Time travel paradoxes',
+    'Unified field theory applications',
+  ],
+  researchTopics: [
+    {
+      id: 'topic-rainbow-001',
+      name: 'The Philadelphia Experiment',
+      description:
+        'Investigation into the alleged 1943 naval experiment (Project Rainbow) where the USS Eldridge was rendered invisible and teleported from Philadelphia to Norfolk, Virginia. According to Al Bielek, the experiment involved electromagnetic field generators based on Nikola Tesla and John von Neumann work, resulting in temporal displacement and catastrophic effects on the crew.',
+      dateRange: {
+        start: '1943-10-28',
+        end: '1943-10-28',
+      },
+      status: InvestigationStatus.OFFICIALLY_DENIED,
+      officialNarrative:
+        'The Philadelphia Experiment never happened. The USS Eldridge was never in Philadelphia. The story is a hoax based on letters from Carl Allen (Carlos Allende) to UFO researcher Morris Jessup.',
+      alternativeTheories: [
+        'The experiment successfully rendered the ship invisible and teleported it',
+        'Crew members were fused with the ship structure',
+        'Some sailors were phased in and out of visibility for days',
+        'The experiment opened a temporal rift connecting to the Montauk Project in 1983',
+        'Tesla designed the original equipment but withdrew due to safety concerns',
+        'The Navy continues similar experiments under different programs',
+        'Al Bielek and Duncan Cameron were actually present on the ship',
+      ],
+      keyEvidence: [
+        'Carlos Allende letters to Morris Jessup (1955-1956)',
+        'Al Bielek detailed testimony and lectures (1990s-2000s)',
+        'USS Eldridge deck logs missing for October 1943',
+        'Testimony of crew survivors',
+        'Connection to Einstein unified field theory research',
+        'Navy degaussing experiments during WWII',
+        'Parallels to modern stealth and cloaking technology',
+        'Preston Nichols corroborating accounts',
+      ],
+      documents: [
+        {
+          id: 'doc-rainbow-001',
+          title: 'The Case for the UFO - Annotated Edition',
+          type: 'investigative',
+          releaseDate: '1955',
+          source: 'Morris K. Jessup / Carlos Allende annotations',
+          keyFindings: [
+            'Handwritten annotations describing the experiment',
+            'References to crew effects',
+            'Navy interest in the annotated copy',
+          ],
+        },
+        {
+          id: 'doc-rainbow-002',
+          title: 'Al Bielek Philadelphia Experiment Testimony',
+          type: 'testimony',
+          releaseDate: '1990',
+          source: 'MUFON Conference Recordings',
+          keyFindings: [
+            'First-person account of being on USS Eldridge',
+            'Description of temporal displacement to 2137 and 2749',
+            'Details of recovered memories after age regression',
+          ],
+        },
+        {
+          id: 'doc-rainbow-003',
+          title: 'Office of Naval Research Statement',
+          type: 'official',
+          releaseDate: '1996',
+          source: 'US Navy',
+          keyFindings: [
+            'ONR denies any experiment occurred',
+            'Claims Eldridge was never in Philadelphia',
+            'References degaussing as possible origin of legend',
+          ],
+        },
+      ],
+      keyFigures: [
+        {
+          id: 'figure-rainbow-001',
+          name: 'Al Bielek (Edward Cameron)',
+          role: 'Claimed Participant / Whistleblower',
+          organization: 'US Navy (alleged)',
+          nationality: 'American',
+          timeActive: '1943-2011',
+          notes: 'Claimed to be Edward Cameron, one of two brothers who jumped off the Eldridge during the experiment. Says he was age-regressed and given a new identity.',
+        },
+        {
+          id: 'figure-rainbow-002',
+          name: 'Duncan Cameron',
+          role: 'Claimed Participant',
+          organization: 'Montauk Project (alleged)',
+          nationality: 'American',
+          notes: 'Al Bieleks claimed brother who also jumped ship during the experiment. Allegedly had psychic abilities used in Montauk.',
+        },
+        {
+          id: 'figure-rainbow-003',
+          name: 'Nikola Tesla',
+          role: 'Chief Scientist (alleged)',
+          organization: 'US Navy Consultant',
+          nationality: 'Serbian-American',
+          timeActive: '1940-1943',
+          notes: 'Allegedly designed the original equipment but withdrew before the experiment due to safety concerns. Supposedly died in January 1943, months before the experiment.',
+        },
+        {
+          id: 'figure-rainbow-004',
+          name: 'John von Neumann',
+          role: 'Project Director (alleged)',
+          organization: 'Princeton / US Navy',
+          nationality: 'Hungarian-American',
+          notes: 'Allegedly took over after Tesla withdrew. Applied mathematical approaches to the unified field problem.',
+        },
+        {
+          id: 'figure-rainbow-005',
+          name: 'Carlos Allende (Carl Allen)',
+          role: 'Witness / Letter Writer',
+          nationality: 'American',
+          notes: 'Claimed to have witnessed the experiment from SS Andrew Furuseth. Wrote controversial letters to Morris Jessup.',
+        },
+        {
+          id: 'figure-rainbow-006',
+          name: 'Morris K. Jessup',
+          role: 'UFO Researcher / Author',
+          nationality: 'American',
+          timeActive: '1955-1959',
+          notes: 'Author who received Allende letters. His annotated copy of "Case for the UFO" was reproduced by ONR. Died under suspicious circumstances in 1959.',
+        },
+      ],
+      relatedTopics: ['topic-montauk-001', 'topic-timetravel-001'],
+      contradictions: [
+        'Navy denies Eldridge was in Philadelphia vs. witness testimonies',
+        'Official logs missing vs. claims of detailed records destruction',
+        'Crew members allegedly sworn to secrecy vs. multiple whistleblowers emerging',
+        'Technology impossible in 1943 vs. Tesla and Einstein involvement alleged',
+        'Simple degaussing experiment vs. reports of invisibility and teleportation',
+      ],
+      unansweredQuestions: [
+        'Why are the USS Eldridge deck logs missing for October 1943?',
+        'What was the ONRs interest in the annotated Jessup book?',
+        'Did Tesla really withdraw from the project?',
+        'What happened to the crew members?',
+        'Is there a connection to modern Navy stealth programs?',
+      ],
+    },
+    {
+      id: 'topic-montauk-001',
+      name: 'The Montauk Project',
+      description:
+        'Investigation into alleged secret government experiments at Camp Hero, Montauk, Long Island from 1971-1983. According to Al Bielek and Preston Nichols, the project involved time travel, mind control, and the creation of temporal portals linked to the Philadelphia Experiment.',
+      dateRange: {
+        start: '1971',
+        end: '1983',
+      },
+      status: InvestigationStatus.COVERED_UP,
+      officialNarrative:
+        'Camp Hero was a decommissioned Air Force radar station. No secret experiments occurred there. The "Montauk Project" is science fiction created by Preston Nichols and Peter Moon.',
+      alternativeTheories: [
+        'Time travel experiments were conducted using a modified SAGE radar system',
+        'The Montauk Chair allowed psychic projection through time',
+        'A temporal rift connected August 12, 1983 to October 28, 1943',
+        'Al Bielek and Duncan Cameron were brought forward through time from the Eldridge',
+        'Mind control experiments created psychic warriors',
+        'The Montauk Monster was a creature from the experiments',
+        'Underground facilities extend beneath Camp Hero',
+      ],
+      keyEvidence: [
+        'Camp Hero SAGE radar installation matched experiment descriptions',
+        'Al Bielek detailed lectures on Montauk operations',
+        'Preston Nichols equipment and technical descriptions',
+        'Reports of strange phenomena around Montauk area',
+        'Underground tunnels documented at Camp Hero',
+        'Connection to Brookhaven National Laboratory',
+        'Multiple witness testimonies of unusual activity',
+        'Matching dates between Philadelphia Experiment and Montauk closure (August 12, 1983)',
+      ],
+      documents: [
+        {
+          id: 'doc-montauk-001',
+          title: 'The Montauk Project: Experiments in Time',
+          type: 'investigative',
+          releaseDate: '1992',
+          source: 'Preston Nichols & Peter Moon',
+          keyFindings: [
+            'Detailed technical descriptions of time travel equipment',
+            'Claims of SAGE radar modification for temporal experiments',
+            'Montauk Chair psychic amplification system',
+          ],
+        },
+        {
+          id: 'doc-montauk-002',
+          title: 'Al Bielek Montauk Testimony',
+          type: 'testimony',
+          releaseDate: '1990s',
+          source: 'Conference lectures and interviews',
+          keyFindings: [
+            'Personal account of time travel to future years 2137 and 2749',
+            'Description of future Earth civilizations',
+            'Connection between Philadelphia Experiment and Montauk rift',
+          ],
+        },
+      ],
+      keyFigures: [
+        {
+          id: 'figure-montauk-001',
+          name: 'Preston Nichols',
+          role: 'Engineer / Whistleblower',
+          organization: 'Montauk Project (alleged)',
+          nationality: 'American',
+          notes: 'Claims to have worked on RF equipment at Montauk. Author of multiple books on the subject.',
+        },
+        {
+          id: 'figure-montauk-002',
+          name: 'Stewart Swerdlow',
+          role: 'Claimed Participant',
+          organization: 'Montauk Project (alleged)',
+          nationality: 'American',
+          notes: 'Claims to have been a "Montauk Boy" subjected to mind control experiments.',
+        },
+      ],
+      relatedTopics: ['topic-rainbow-001', 'topic-timetravel-001'],
+      contradictions: [
+        'Decommissioned base vs. reports of ongoing activity after closure',
+        'Fiction vs. multiple corroborating witnesses',
+        'No evidence vs. documented underground facilities',
+        'Impossible technology vs. connections to known black projects',
+      ],
+      unansweredQuestions: [
+        'What were the true purposes of the SAGE radar installation?',
+        'Why do multiple unrelated witnesses describe similar events?',
+        'What is in the underground facilities at Camp Hero?',
+        'Why was the base suddenly decommissioned in 1983?',
+      ],
+    },
+    {
+      id: 'topic-timetravel-001',
+      name: 'Government Time Travel Programs',
+      description:
+        'Investigation into alleged secret government time travel capabilities, including Project Rainbow, Montauk, Looking Glass, and connections to phenomena like the Llama time traveler accounts. Examines the intersection of temporal physics, consciousness research, and classified military programs.',
+      dateRange: {
+        start: '1943',
+        end: 'ongoing',
+      },
+      status: InvestigationStatus.ACTIVE,
+      officialNarrative:
+        'Time travel is not possible with current technology. No government has successfully developed time travel capabilities.',
+      alternativeTheories: [
+        'Multiple time travel programs have operated since the 1940s',
+        'Project Looking Glass allowed viewing of future timelines',
+        'Temporal displacement was achieved through electromagnetic field manipulation',
+        'Time travelers have appeared throughout history (Llama reference)',
+        'The government actively suppresses time travel technology',
+        'Chrononauts have visited multiple time periods',
+        'Timeline manipulation has already altered history',
+      ],
+      keyEvidence: [
+        'Al Bielek testimony about traveling to 2137 and 2749',
+        'Andrew Basiago claims about Project Pegasus',
+        'Connection between Tesla technology and temporal displacement',
+        'Alleged Looking Glass briefings to government officials',
+        'Accounts of time-displaced individuals (Llama time traveler phenomenon)',
+        'John Titor online claims (2000-2001)',
+        'Theoretical physics supporting closed timelike curves',
+      ],
+      documents: [
+        {
+          id: 'doc-time-001',
+          title: 'Al Bielek Future Timeline Testimony',
+          type: 'testimony',
+          releaseDate: '1990s',
+          source: 'Al Bielek Lectures',
+          keyFindings: [
+            'Earth population reduced to 300 million by 2137',
+            'Major coastline changes from pole shift',
+            'Synthetic food and floating cities by 2749',
+            'Highly evolved peaceful society in far future',
+          ],
+        },
+        {
+          id: 'doc-time-002',
+          title: 'John Titor Forum Posts',
+          type: 'investigative',
+          releaseDate: '2000-2001',
+          source: 'Art Bell Forums / Time Travel Institute',
+          keyFindings: [
+            'Claims of civil war in America',
+            'IBM 5100 computer significance',
+            'Multiverse theory of time travel',
+          ],
+        },
+      ],
+      keyFigures: [
+        {
+          id: 'figure-time-001',
+          name: 'Al Bielek',
+          role: 'Claimed Time Traveler',
+          nationality: 'American',
+          notes: 'Claimed to have traveled to 2137 and 2749 during Philadelphia Experiment and Montauk Project.',
+        },
+        {
+          id: 'figure-time-002',
+          name: 'Andrew Basiago',
+          role: 'Claimed Project Pegasus Participant',
+          nationality: 'American',
+          notes: 'Claims to have participated in DARPA time travel program as a child in the 1970s.',
+        },
+        {
+          id: 'figure-time-003',
+          name: 'John Titor',
+          role: 'Claimed Time Traveler',
+          nationality: 'American (future)',
+          timeActive: '2000-2001 (claims from 2036)',
+          notes: 'Anonymous poster claiming to be soldier from 2036 seeking IBM 5100 computer.',
+        },
+      ],
+      relatedTopics: ['topic-rainbow-001', 'topic-montauk-001'],
+      contradictions: [
+        'Time travel impossible vs. classified programs alleged',
+        'No evidence vs. multiple independent witnesses',
+        'Physics prohibits vs. theoretical frameworks exist',
+        'Hoaxes vs. verified accuracy of some predictions',
+      ],
+      unansweredQuestions: [
+        'Has the government achieved time travel?',
+        'Are time travelers already among us?',
+        'What technology enables temporal displacement?',
+        'Have timelines already been altered?',
+        'What is the connection between consciousness and time travel?',
+      ],
+    },
+  ],
+  keyQuestions: [
+    'Did the Philadelphia Experiment actually occur?',
+    'What happened to Al Bielek/Edward Cameron?',
+    'Is there a connection between the 1943 and 1983 experiments?',
+    'Has the government achieved time travel capabilities?',
+    'What are the implications of timeline manipulation?',
+  ],
+  motto: 'Time is not a river, but an ocean we have yet to navigate.',
+  createdAt: new Date('2024-01-01'),
+  updatedAt: new Date('2024-01-01'),
+};
+
+export default philadelphiaExperimentAgent;
