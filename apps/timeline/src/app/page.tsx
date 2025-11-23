@@ -6,6 +6,7 @@ import religiousTimeline from '@ourstory/religious-texts';
 import ancientCivilizationsTimeline from '@ourstory/ancient-civilizations';
 import alternativeHistoryTimeline from '@ourstory/alternative-history';
 import declassifiedTimeline from '@ourstory/declassified-docs';
+import ufoDisclosureTimeline from '@ourstory/ufo-disclosure';
 
 export default function Home() {
   // Merge all timelines
@@ -14,6 +15,7 @@ export default function Home() {
     ancientCivilizationsTimeline,
     alternativeHistoryTimeline,
     declassifiedTimeline,
+    ufoDisclosureTimeline,
   ]);
 
   const engine = new TimelineEngine(mergedTimeline);

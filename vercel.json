@@ -28,7 +28,8 @@
   "git": {
     "deploymentEnabled": {
       "main": true,
-      "claude/setup-turbo-repo-01DuyYrCnYY23qhKBCkHdAaA": true
+      "claude/setup-turbo-repo-01DuyYrCnYY23qhKBCkHdAaA": true,
+      "claude/deploy-majestic-ufo-018LrgJo8K91SYE95CBZLwUs": true
     }
   }
 }
